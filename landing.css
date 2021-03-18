@@ -1,0 +1,35 @@
+
+body{
+	font-family: roboto;
+	background-image: url(rkr.jpg);
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+	font-size: 30px;
+	border: 10px solid #151414;
+	border-style: inset;
+}
+li {
+	float: left;
+	border-right: 2px dotted #242121;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1e0101;
+}
+
+.active {
+  background-color: #1E1D1D;
+}

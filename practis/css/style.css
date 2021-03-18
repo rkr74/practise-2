@@ -1,0 +1,91 @@
+body {
+	background-color: #4a4a4a;
+}
+.header{
+	min-height: 100px;
+	background-color: red;
+}
+.wrapper{
+	overflow: hidden;
+
+}
+.blog{
+	float: left;
+	width: 60%;
+	min-height: 150px;
+	background-color: green;
+
+}
+.contact {
+	float: right;
+	width: 40%;
+	min-height: 150px;
+	background-color: blue;
+}
+.footer{
+	min-height: 80px;
+	background-color: black;
+}
+.single{
+	min-height: 150px;
+	width: 25%;
+	float: left;
+
+}
+.box1{
+	background-color: blue;
+}
+.box2 {
+	background-color: #6c0461;
+}
+.box3{
+	background-color: orange;
+}
+.box4{
+	background-color: red;
+}
+
+
+h2 {
+	color: white;
+}
+
+h1 {
+	color: #060000;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+}
+label {
+	color: white;
+}
+ol {
+	color: white;
+}
+form {
+	color: white;
+}
+pre {
+	color: white;
+}
+ruby {
+	color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-color: white;
+}
+
+thead {color:green;}
+tbody {color:blue;}
+tfoot {color:red;}
+
+
+table{
+width: 100%;
+}
+
